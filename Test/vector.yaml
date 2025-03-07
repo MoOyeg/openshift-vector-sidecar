@@ -1,0 +1,15 @@
+data_dir: "/vector-data-dir"
+sources:
+  file_reader:
+    type: file
+    include:
+      - /vector-logs/*.log
+
+sinks:
+  file_writer:
+    type: console
+    inputs:
+      - file_reader
+    target: stdout
+    encoding:
+      codec: text
