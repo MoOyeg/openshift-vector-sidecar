@@ -1,6 +1,6 @@
 Simple Vector sidecar to assist applications that cannot log to stdout on their own.
 
-While OpenShift comes with it's own logging stack based on vector, it does not support the editing the default Logging stack to read application specific log files. This is a simple sidecar to help with that use case.
+While OpenShift comes with it's own logging stack based on vector, it does not support editing the default Logging stack to read application specific log files. This is a simple sidecar to help with that use case.
 
 
 ## Deploy on OCP
